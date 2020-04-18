@@ -46,6 +46,12 @@ This workshop consists of 6 lessons and 5 projects:
 4. Identifying portraits for a mobile portrait scanner app
 5. Detecting images of licence plates taken at night in dark
 
+## Setup
+Use the following guides to setup your development environment
+
+- **[Installing OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** (We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle )
+- **[Installing OpenCV using pip](https://anaconda.org/conda-forge/opencv)** (Use either conda or pip)
+
 ## Flow
 
 1. Clone this git repository using `git clone https://github.com/beginners-machine-learning-london/computer_vision_basics.git` or download the repo as a zip file to get started
@@ -60,7 +66,7 @@ This workshop consists of 6 lessons and 5 projects:
 ## Featured technologies
 
 - [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
-- [Azure ML Studio](https://studio.azureml.net/): Azure Machine Learning Studio is a GUI-based integrated development environment for constructing and operationalizing Machine Learning workflow on Azure.
+- [OpenCV](https://opencv.org): OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library containing 2500 computer vision algorithms. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 
 ## Learn More
 
