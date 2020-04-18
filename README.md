@@ -49,8 +49,8 @@ This workshop consists of 6 lessons and 5 projects:
 ## Setup
 Use the following guides to setup your development environment
 
-- **[Installing OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** (We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle )
-- **[Installing OpenCV using pip](https://anaconda.org/conda-forge/opencv)** (Use either conda or pip)
+- **[Installing OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** - We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle
+- **[Installing OpenCV using pip](https://stackoverflow.com/questions/51853018/how-do-i-install-opencv-using-pip)**  - Use either conda or pip
 
 ## Flow
 
