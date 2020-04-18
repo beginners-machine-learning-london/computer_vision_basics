@@ -4,7 +4,7 @@ import numpy as np
 
 # 1. Accessing and Modifying pixel values
 # loads an image
-img = cv2.imread('coding.jpg')
+img = cv2.imread('../img/coding.jpg')
 
 # access a pixel value by its row and column coordinates
 # it returns an BlueGreenRed array

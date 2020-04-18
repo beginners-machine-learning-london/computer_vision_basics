@@ -5,15 +5,15 @@
 import cv2
 import numpy as np
 
-img_name = 'coding.jpg'
+img_file = '../img/coding.jpg'
 # scaling (resizing of the image)
-img = cv2.imread(img_name)
+img = cv2.imread(img_file)
 
 height, width = img.shape[:2]
 res = cv2.resize(img,(2*width, 2*height), interpolation = cv2.INTER_CUBIC)
 
 # rotation
-img = cv2.imread(img_name,0)
+img = cv2.imread(img_file,0)
 rows,cols = img.shape
 
 M = cv2.getRotationMatrix2D((cols/2,rows/2),90,1)
@@ -24,7 +24,7 @@ dst = cv2.warpAffine(img,M,(cols,rows))
 # 2D convolution (image filtering)
 from matplotlib import pyplot as plt
 
-img = cv2.imread(img_name)
+img = cv2.imread(img_file)
 
 kernel = np.ones((5,5),np.float32)/25
 dst = cv2.filter2D(img,-1,kernel)
@@ -49,7 +49,7 @@ blur = cv2.GaussianBlur(img,(5,5),0)
 
 # morphological transformations
 # erosion (erodes away the boundaries of foreground object)
-img = cv2.imread(img_name,0)
+img = cv2.imread(img_file,0)
 kernel = np.ones((5,5),np.uint8)
 erosion = cv2.erode(img,kernel,iterations = 1)
 
