@@ -51,7 +51,7 @@ This workshop consists of 6 lessons and 5 projects:
 1. Clone this git repository using `git clone https://github.com/beginners-machine-learning-london/computer_vision_basics.git` or download the repo as a zip file to get started
 2. Setup your development environment using conda or pipenv using the `requirements.txt` file.
 3. Listen to lectures then work your way through the notebooks in `notebooks` folder.
-4. Complete the project notebooks in the `projects` folder after the workshop.
+4. Complete the project sections in the notebooks after the workshop.
 5. Join our [slack group](http://tiny.cc/joinbmlslack) to get access to this workshop's private channel so that you can ask questions and connect wth your classmates
 6. Submit the github repo link to your completed projects on our [website](https://beginnersmachinelearning.com) for grading and a chance to earn a course certificate 
 
