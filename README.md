@@ -62,10 +62,6 @@ This workshop consists of 6 lessons and 5 projects:
 - [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 - [Azure ML Studio](https://studio.azureml.net/): Azure Machine Learning Studio is a GUI-based integrated development environment for constructing and operationalizing Machine Learning workflow on Azure.
 
-## Dataset Source
-
-The dataset for this workshop can be obtained via UCI. However, a static copy is also provided in the `exercises/data` folder. You can download the dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
-
 ## Learn More
 
 - **[OpenCV Python Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/)** - Use this resource as the main textbook for this class
