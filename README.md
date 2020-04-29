@@ -20,13 +20,6 @@ During the workshop we will analyse and process images in a Jupyter notebook. We
 - How to detect objects in images
 - How to perform image analysis
 
-## Prequisites
-
-While you won't need prior experience in computer vision, we will assume basic programming experience with Python and package/environment managers such as pip, conda or pipenv.
-
-For a referesher on python programming, we recommend the following free course:
-- Python programming language: See [Udacity - Intro to Python](https://eu.udacity.com/course/introduction-to-python--ud1110)
-
 ## Steps
 
 This workshop consists of 6 lessons and 5 projects:
@@ -46,11 +39,31 @@ This workshop consists of 6 lessons and 5 projects:
 4. Identifying portraits for a mobile portrait scanner app
 5. Detecting dimly lit images of licence plates taken at night
 
+
+## Prerequisites
+
+While you won't need prior experience in computer vision, we will assume basic programming experience with Python and package/environment managers such as pip, conda or pipenv.
+1. Conda installed locally (https://docs.anaconda.com/anaconda/install/)
+2. Jupyter Notebook installed locally (https://jupyter.readthedocs.io/en/latest/install.html) 
+
+For referesher on python programming we recommend the following free course:
+- Python programming language: See [Udacity - Intro to Python](https://eu.udacity.com/course/introduction-to-python--ud1110)
+
+
 ## Setup
 Use the following guides to setup your development environment
 
-- **[Installing OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** - We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle
-- **[Installing OpenCV using pip](https://stackoverflow.com/questions/51853018/how-do-i-install-opencv-using-pip)**  - Use either conda or pip
+1. Create your local environment: `conda create --name ${environment_name}`
+2. Activate the env: `conda activate ${environment_name}`
+3. **[Install OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** - We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle
+`conda install -c conda-forge opencv`
+4. Install matplotlib `conda install 
+3. Add virtual env to jupyter notebook kernel
+    `pip install --user ipykernel`
+    `python -m ipykernel install --user --name=${environment_name}` (this should print "Installed kernelspec ${environment_name} in ${dir})
+3. Make sure you have jupyter notebook installed (see prerequisite No. 2) and run `jupyter notebook` from the root of this project. This will start a local notebook server and open a new window
+4. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}
+5. You're ready to go!
 
 ## Flow
 
@@ -58,7 +71,7 @@ Use the following guides to setup your development environment
 2. Setup your development environment using conda or pipenv using the `requirements.txt` file.
 3. Listen to lectures then work your way through the notebooks in `notebooks` folder.
 4. Complete the project sections in the notebooks after the workshop.
-5. Join our [slack group](http://tiny.cc/joinbmlslack) to get access to this workshop's private channel so that you can ask questions and connect wth your classmates
+5. Join our [slack group](http://tiny.cc/joinbmlslack) to get access to this workshop's private channel so that you can ask questions and connect with your classmates
 6. Submit the github repo link to your completed projects on our [website](https://beginnersmachinelearning.com) for grading and a chance to earn a course certificate 
 
 > **IMPORTANT NOTE**: Attempt to complete the projects by yourself using openCV documentation and googling online. If you get stuck and cannot progress any further, then take a look at the solutions in the `solutions` folder
