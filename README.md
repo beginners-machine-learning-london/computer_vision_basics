@@ -62,7 +62,7 @@ Use the following guides to setup your development environment
     `pip install --user ipykernel`
     `python -m ipykernel install --user --name=${environment_name}` (this should print "Installed kernelspec ${environment_name} in ${dir})
 3. Make sure you have jupyter notebook installed (see prerequisite No. 2) and run `jupyter notebook` from the root of this project. This will start a local notebook server and open a new window
-4. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}
+4. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
 5. You're ready to go!
 
 ## Flow
