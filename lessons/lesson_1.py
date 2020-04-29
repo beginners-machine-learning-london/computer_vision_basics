@@ -3,10 +3,11 @@ import cv2
 import numpy as np
 
 # 1. Accessing and Modifying pixel values
-# loads an image
+# loads an image, note that cv2 automatically loadss as BGR
 img = cv2.imread('../img/coding.jpg')
 
 # access a pixel value by its row and column coordinates
+# Reference to colors: https://www.rapidtables.com/web/color/RGB_Color.html
 # it returns an BlueGreenRed array
 px = img[100,100]
 print(px)

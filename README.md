@@ -4,17 +4,17 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 
 The library has more than 2500 optimised algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognise faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects, produce 3D point clouds from stereo cameras, stitch images together to produce a high resolution image of an entire scene, find similar images from an image database, remove red eyes from images taken using flash, follow eye movements, recognise scenery and establish markers to overlay it with augmented reality, etc.
 
-## What will I learn during this workshop
+## What will I learn during this workshop?
 
-In this hands-on Beginners Machine Learning online workshop, you will develop your data processing skills to complex datasets such as images. These workshop series will gradually develop to include video processing, deep learning and more advance applications in computer vision.
+In this hands-on Beginners Machine Learning online workshop, you will develop your data processing skills to images. These workshop series will gradually develop to include video processing, deep learning and more advanced applications in computer vision.
 
-During the workshop we will analyse and process images in a Jupyter notebook. We first will look at the properties of images and explore the different image processing commands. After we have learned the basics, we will go through some exercises identifying objects in images using edge detection techniques and contours.
+During the workshop we will analyse and process images in a Jupyter notebook. We first will look at the properties of images and explore the different image processing commands. After we have learned the basics, we will go through some exercises identifying objects in images using simple edge detection techniques and contours.
 
 ## Questions you will answer in this workshop
 
 ## Learning Objectives
 
-- How are images stored in computer and what colour channels are
+- How are images stored in computers and what colour channels are
 - How to read in and save images for processing using command line options
 - How to perform basic image operations such as cropping, masking and transformations
 - How to detect objects in images
@@ -25,7 +25,7 @@ During the workshop we will analyse and process images in a Jupyter notebook. We
 This workshop consists of 6 lessons and 5 projects:
 
 **LESSONS**
-1. Basic Image Operations (Parsing Commands, Loading and showing images)
+1. Basic Image Operations (Parsing Commands, Loading and Showing images)
 2. Basic Image Processing Techniques (Cropping, Masking, Geometric Transformations, Morphological Transformations)
 3. Kernels, Smoothing and Blurring Images 
 4. Image Gradients, Thresholding, Edge Detection 
@@ -33,11 +33,11 @@ This workshop consists of 6 lessons and 5 projects:
 6. Histograms and Image Enhancements by Equalising
 
 **PROJECTS**
-1. Data Augmentation for a flower detector machine learning classifier
+1. Data Augmentation for a flower detection machine learning classifier
 2. Detecting Xs and Os for a Tic Tac Toe mobile game app
 3. Classifying Shapes in an image
 4. Identifying portraits for a mobile portrait scanner app
-5. Detecting images of licence plates taken at night in dark
+5. Detecting dimly lit images of licence plates taken at night
 
 
 ## Prerequisites
@@ -76,14 +76,14 @@ Use the following guides to setup your development environment
 
 > **IMPORTANT NOTE**: Attempt to complete the projects by yourself using openCV documentation and googling online. If you get stuck and cannot progress any further, then take a look at the solutions in the `solutions` folder
 
-## Featured technologies
+## Primary Tools:
 
 - [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 - [OpenCV](https://opencv.org): OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library containing 2500 computer vision algorithms. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 
-## Learn More
+## Learn More:
 
-- **[OpenCV Python Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/)** - Use this resource as the main textbook for this class
+- **[OpenCV Python Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/)** - Use this resource as the main resource for this class.
 - **[Official OpenCV Website](https://opencv.org)** - Check out this resource to learn more about OpenCV and read the official documentation. The documentation provides further information on CV algorithms and concepts utilised in each function.
 - **[pyimagesearch Computer Vision Blog](https://www.pyimagesearch.com)** - A great resource to dive deeper into computer vision topics.
 
@@ -94,3 +94,4 @@ Use the following guides to setup your development environment
 ## Workshop Feedback
 
 - How was this workshop? Please provide us with some feedback [**here**](http://tiny.cc/BMLfeedback) so that we can improve the content and delivery of future workshops.
+
