@@ -53,15 +53,13 @@ Use the following guides to setup your development environment
 
 1. Create your local environment (see prerequisite No. 1): `conda create --name ${environment_name}`
 2. Activate the env: `conda activate ${environment_name}`
-3. **[Install OpenCV with Conda](https://anaconda.org/conda-forge/opencv)** - We recommend you install OpenCV via distributed packages and package managers like Conda to avoid unnecessary hassle
-`conda install -c conda-forge opencv`
-4. Install matplotlib and numpy using `conda install matplotlib numpy`
-3. Add virtual env to jupyter notebook kernel
-    `pip install --user ipykernel`
-    `python -m ipykernel install --user --name=${environment_name}` (this should print "Installed kernelspec ${environment_name} in ${dir})
-3. Make sure you have jupyter notebook installed (see prerequisite No. 2) and run `jupyter notebook` from the root of this project. This will start a local notebook server and open a new window
-4. Go to /notebooks/Lesson 1 - Basic Image Operations and select the kernel that is attached to the environment you've just created 
-5. You're ready to go!
+3. Install your dependencies `pip install -r requirements.txt`
+4. Add virtual env to jupyter notebook kernel
+    `python -m ipykernel install --user --name=${environment_name}`
+    this should print "Installed kernelspec ${environment_name} in ${dir}
+5. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
+(every time you open a new lesson you're likely to have to select your kernel again)
+6. You're ready to go!
 
 ## Flow
 
