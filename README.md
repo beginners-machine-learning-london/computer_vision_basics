@@ -10,8 +10,6 @@ In this hands-on Beginners Machine Learning online workshop, you will develop yo
 
 During the workshop we will analyse and process images in a Jupyter notebook. We first will look at the properties of images and explore the different image processing commands. After we have learned the basics, we will go through some exercises identifying objects in images using simple edge detection techniques and contours.
 
-## Questions you will answer in this workshop
-
 ## Learning Objectives
 
 - How are images stored in computers and what colour channels are
