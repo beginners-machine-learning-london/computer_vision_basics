@@ -57,9 +57,9 @@ Use the following guides to setup your development environment
 4. Add virtual env to jupyter notebook kernel
     `python -m ipykernel install --user --name=${environment_name}`
     this should print "Installed kernelspec ${environment_name} in ${dir}
-4. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
+5. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
 (every time you open a new lesson you're likely to have to select your kernel again)
-5. You're ready to go!
+6. You're ready to go!
 
 ## Flow
 
