@@ -34,8 +34,8 @@ This workshop consists of 6 lessons and 5 projects:
 1. Data Augmentation for a flower detection machine learning classifier
 2. Detecting Xs and Os for a Tic Tac Toe mobile game app
 3. Classifying Shapes in an image
-4. Identifying portraits for a mobile portrait scanner app
-5. Detecting dimly lit images of licence plates taken at night
+4. Identifying licence plates in a photograph
+5. Enhancing dimly lit/low contrast images for edge detection
 
 
 ## Prerequisites
