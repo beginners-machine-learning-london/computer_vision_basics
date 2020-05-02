@@ -23,7 +23,7 @@ img = cv2.drawContours(img, [cnt], 0, (0,255,0), 3)
 # image moments
 img = cv2.imread(img_file,0)
 ret,thresh = cv2.threshold(img,127,255,0)
-contours,hierarchy = cv2.findContours(thresh, 1, 2)
+contours = cv2.findContours(thresh, 1, 2)[1]
 
 cnt = contours[0]
 M = cv2.moments(cnt)
