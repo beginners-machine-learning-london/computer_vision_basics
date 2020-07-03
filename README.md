@@ -51,15 +51,23 @@ For referesher on python programming we recommend the following free course:
 ## Setup
 Use the following guides to setup your development environment
 
-1. Create your local environment (see prerequisite No. 1): `conda create --name ${environment_name}`
-2. Activate the env: `conda activate ${environment_name}`
-3. Install your dependencies `pip install -r requirements.txt`
+-  USING CONDA
+    1. Install Miniconda (~400MB) or Anaconda (~3GB) package manager [following instructions here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+    2. Create your local environment (see prerequisite No. 1): `conda env create -f environment.yml`
+    3. Activate the conda environment: `conda activate ${environment_name}`
+  
+- USING VENV & PIP
+1. Setup a new virtual environment using venv by [following instructions here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+2. Activate your newly created virtual environment
+3. Install required packages using `pip install -r requirements.txt`
 4. Add virtual env to jupyter notebook kernel
     `python -m ipykernel install --user --name=${environment_name}`
     this should print "Installed kernelspec ${environment_name} in ${dir}
-5. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
+
+Then go to /notebooks/Lesson 1 - Basic Image Operations and select `bml-cv4` kernel
 (every time you open a new lesson you're likely to have to select your kernel again)
-6. You're ready to go!
+
+You're ready to go!
 
 ## Flow
 
