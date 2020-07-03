@@ -57,12 +57,12 @@ Use the following guides to setup your development environment
     3. Activate the conda environment: `conda activate ${environment_name}`
   
 - USING VENV & PIP
-1. Setup a new virtual environment using venv by [following instructions here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-2. Activate your newly created virtual environment
-3. Install required packages using `pip install -r requirements.txt`
-4. Add virtual env to jupyter notebook kernel
-    `python -m ipykernel install --user --name=${environment_name}`
-    this should print "Installed kernelspec ${environment_name} in ${dir}
+    1. Setup a new virtual environment using venv by [following instructions here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+    2. Activate your newly created virtual environment
+    3. Install required packages using `pip install -r requirements.txt`
+    4. Add virtual env to jupyter notebook kernel
+        `python -m ipykernel install --user --name=${environment_name}`
+        this should print "Installed kernelspec ${environment_name} in ${dir}
 
 Then go to /notebooks/Lesson 1 - Basic Image Operations and select `bml-cv4` kernel
 (every time you open a new lesson you're likely to have to select your kernel again)
