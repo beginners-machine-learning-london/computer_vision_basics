@@ -1,4 +1,4 @@
-name: test-cv
+name: bml-cv4
 channels:
   - defaults
 dependencies:
