@@ -90,6 +90,7 @@ You're ready to go!
 - **[OpenCV Python Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/)** - Use this resource as the main resource for this class.
 - **[Official OpenCV Website](https://opencv.org)** - Check out this resource to learn more about OpenCV and read the official documentation. The documentation provides further information on CV algorithms and concepts utilised in each function.
 - **[pyimagesearch Computer Vision Blog](https://www.pyimagesearch.com)** - A great resource to dive deeper into computer vision topics.
+- **[Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)**
 
 ## Collaboration, Questions and Discussions
 
